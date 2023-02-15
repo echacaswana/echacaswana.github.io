@@ -1,0 +1,39 @@
+.slider h3, .slider h5, .clients h3 {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+
+
+hr {
+	width: 250px;
+	border-top: 1px solid black;
+}
+
+.parallax-container {
+	height: 20%;
+}
+
+.parallax img {
+	filter: grayscale(1);
+	opacity: .7 !important;
+}
+
+.clients img {
+	max-width: 150px;
+	filter: drop-shadow(1px 1px 1px black rgba(0, 0, 0, .8));
+}
+
+section, footer {
+	padding: 20px 0;
+}
+
+.card-panel i:hover{
+	cursor: default;
+}
+
+footer a {
+	
+}
+
+footer a:hover {
+	color: salmon;
+}
